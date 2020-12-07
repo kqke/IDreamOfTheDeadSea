@@ -40,15 +40,15 @@ class MyHomePage extends StatelessWidget {
             Expanded(
               flex: 1,
               child: BeforeAfter(
-                beforeImage: Image.asset('assets/after.jpg'),
-                afterImage: Image.asset('assets/before.jpg'),
+                beforeImage: Image.asset('assets/slide1a.jpg'),
+                afterImage: Image.asset('assets/slide1b.jpg'),
               ),
             ),
             Expanded(
               flex: 1,
               child: BeforeAfter(
-                beforeImage: Image.asset('assets/after.jpg'),
-                afterImage: Image.asset('assets/before.jpg'),
+                beforeImage: Image.asset('assets/slide3a.jpg'),
+                afterImage: Image.asset('assets/slide3b.jpg'),
                 isVertical: true,
               ),
             ),
